@@ -630,6 +630,16 @@
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ruellan-http-accept-push-policy",
               "spec-name" : "Internet Draft ruellan-http-accept-push-policy" } ] },
         
+        { "value" : "Accept-Query",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Accept-Query",
+          "details" : 
+          [ 
+            { "description" : "The \"Accept-Query\" response header field MAY be used by a server to directly signal support for the QUERY method while identifying the specific query format media type(s) that may be used.",
+              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-safe-method-w-body#section-3",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-safe-method-w-body",
+              "spec-name" : "Internet Draft ietf-httpbis-safe-method-w-body" } ] },
+        
         { "value" : "Accept-Ranges",
           "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
           "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Accept-Ranges",
@@ -870,6 +880,16 @@
               "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/WD-http-pep",
               "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/WD-http-pep" } ] },
         
+        { "value" : "CDN-Cache-Control",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/CDN-Cache-Control",
+          "details" : 
+          [ 
+            { "description" : "The CDN-Cache-Control response header field is a targeted field that allows origin servers to control the behaviour of CDN caches interposed between them and clients, separately from other caches that might handle the response. It applies to caches that are part of a distributed network that operate on behalf of an origin server (commonly called a Content Delivery Network or CDN).",
+              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-targeted-cache-control#section-3",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-targeted-cache-control",
+              "spec-name" : "Internet Draft ietf-httpbis-targeted-cache-control" } ] },
+        
         { "value" : "Cache-Control",
           "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
           "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Cache-Control",
@@ -895,7 +915,7 @@
           "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Cache-Status",
           "details" : 
           [ 
-            { "description" : "The Cache-Status HTTP response header indicates caches' handling of the request corresponding to the response it occurs within.",
+            { "description" : "The Cache-Status HTTP response header field indicates how caches have handled that response and its corresponding request.",
               "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-cache-header#section-2",
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-cache-header",
               "spec-name" : "Internet Draft ietf-httpbis-cache-header" } ] },
@@ -919,6 +939,16 @@
               "documentation" : "http:\/\/www.w3.org\/TR\/clear-site-data\/#header",
               "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/clear-site-data",
               "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/clear-site-data" } ] },
+        
+        { "value" : "Client-Cert",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Client-Cert",
+          "details" : 
+          [ 
+            { "description" : "The header value contains the client certificate from the mutually-authenticated TLS connection between the originating client and the TTRP. This enables the backend origin server to utilize the client certificate information in its application logic.",
+              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-client-cert-field#section-2",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-client-cert-field",
+              "spec-name" : "Internet Draft ietf-httpbis-client-cert-field" } ] },
         
         { "value" : "Close",
           "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
@@ -1235,8 +1265,8 @@
           "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Digest",
           "details" : 
           [ 
-            { "description" : "The Digest header field provides a digest of the representation data.",
-              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-digest-headers#section-4.2",
+            { "description" : "The \"Digest\" field contains a list of one or more representation digest values. It can be used in both requests and responses.",
+              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-digest-headers#section-3",
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-digest-headers",
               "spec-name" : "Internet Draft ietf-httpbis-digest-headers" },
             
@@ -1404,6 +1434,16 @@
               "documentation" : "http:\/\/tools.ietf.org\/html\/rfc3229#section-10.5.2",
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/3229",
               "spec-name" : "RFC 3229" } ] },
+        
+        { "value" : "Idempotency-Key",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Idempotency-Key",
+          "details" : 
+          [ 
+            { "description" : "An idempotency key is a unique value generated by the client which the resource server uses to recognize subsequent retries of the same request. The \"Idempotency-Key\" HTTP request header field carries this key.",
+              "documentation" : "https:\/\/datatracker.ietf.org\/doc\/html\/draft-ietf-httpapi-idempotency-key-header-00#section-2",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpapi-idempotency-key-header",
+              "spec-name" : "Internet Draft ietf-httpapi-idempotency-key-header" } ] },
         
         { "value" : "If",
           "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
@@ -1835,6 +1875,16 @@
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7240",
               "spec-name" : "RFC 7240" } ] },
         
+        { "value" : "Priority",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Priority",
+          "details" : 
+          [ 
+            { "description" : "The Priority HTTP header field can appear in requests and responses. A client uses it to specify the priority of the response. A server uses it to inform the client that the priority was overwritten. An intermediary can use the Priority information from client requests and server responses to correct or amend the precedence to suit it. The Priority header field is an end-to-end signal of the request priority from the client or the response priority from the server.",
+              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-priority#section-5",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-priority",
+              "spec-name" : "Internet Draft ietf-httpbis-priority" } ] },
+        
         { "value" : "Proxy-Authenticate",
           "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
           "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Proxy-Authenticate",
@@ -1884,6 +1934,16 @@
               "documentation" : "http:\/\/www.w3.org\/TR\/WD-proxy",
               "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/WD-proxy",
               "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/WD-proxy" } ] },
+        
+        { "value" : "Proxy-Status",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Proxy-Status",
+          "details" : 
+          [ 
+            { "description" : "The Proxy-Status HTTP response field allows an intermediary to convey additional information about its handling of a response and its associated request.",
+              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-proxy-status#section-2",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-proxy-status",
+              "spec-name" : "Internet Draft ietf-httpbis-proxy-status" } ] },
         
         { "value" : "Public",
           "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
@@ -1941,9 +2001,9 @@
           "details" : 
           [ 
             { "description" : "The RateLimit-Limit response header field indicates the maximum number of requests that the server allocated to the client in the current time-window.",
-              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-polli-ratelimit-headers#section-3.1",
-              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/polli-ratelimit-headers",
-              "spec-name" : "Internet Draft polli-ratelimit-headers" } ] },
+              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpapi-ratelimit-headers#section-3.1",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpapi-ratelimit-headers",
+              "spec-name" : "Internet Draft ietf-httpapi-ratelimit-headers" } ] },
         
         { "value" : "RateLimit-Remaining",
           "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
@@ -1951,9 +2011,9 @@
           "details" : 
           [ 
             { "description" : "The RateLimit-Remaining response header field indicates the number of requests left for the client until the quota resets.",
-              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-polli-ratelimit-headers#section-3.2",
-              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/polli-ratelimit-headers",
-              "spec-name" : "Internet Draft polli-ratelimit-headers" } ] },
+              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpapi-ratelimit-headers#section-3.2",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpapi-ratelimit-headers",
+              "spec-name" : "Internet Draft ietf-httpapi-ratelimit-headers" } ] },
         
         { "value" : "RateLimit-Reset",
           "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
@@ -1962,8 +2022,8 @@
           [ 
             { "description" : "The RateLimit-Reset response header field indicates either the number of seconds until the quota resets, or the timestamp when the quota resets.",
               "documentation" : "http:\/\/tools.ietf.org\/html\/draft-polli-ratelimit-headers#section-3.3",
-              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/polli-ratelimit-headers",
-              "spec-name" : "Internet Draft polli-ratelimit-headers" } ] },
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpapi-ratelimit-headers",
+              "spec-name" : "Internet Draft ietf-httpapi-ratelimit-headers" } ] },
         
         { "value" : "Redirect-Ref",
           "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
@@ -1984,6 +2044,46 @@
               "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7231#section-5.5.2",
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7231",
               "spec-name" : "RFC 7231" } ] },
+        
+        { "value" : "Repeatability-Client-ID",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Repeatability-Client-ID",
+          "details" : 
+          [ 
+            { "description" : "Repeatability-Client-ID is an optional header that MAY be provided by the client. Repeatability-Client-ID is an opaque string representing a client-generated, globally unique for all time, identifier for the instance of the client application that issued the request.",
+              "documentation" : "https:\/\/docs.oasis-open.org\/odata\/repeatable-requests\/v1.0\/cs01\/repeatable-requests-v1.0-cs01.html#sec_RepeatabilityClientID",
+              "specification" : "http:\/\/webconcepts.info\/specs\/OASIS\/standard\/repeatable-requests-v1.0",
+              "spec-name" : "OASIS Standard repeatable-requests-v1.0" } ] },
+        
+        { "value" : "Repeatability-First-Sent",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Repeatability-First-Sent",
+          "details" : 
+          [ 
+            { "description" : "Repeatability-First-Sent MUST be sent by clients to specify that a request is repeatable. Repeatability-First-Sent is used to specify the date and time at which the request was first created.",
+              "documentation" : "https:\/\/docs.oasis-open.org\/odata\/repeatable-requests\/v1.0\/cs01\/repeatable-requests-v1.0-cs01.html#sec_RepeatabilityFirstSent",
+              "specification" : "http:\/\/webconcepts.info\/specs\/OASIS\/standard\/repeatable-requests-v1.0",
+              "spec-name" : "OASIS Standard repeatable-requests-v1.0" } ] },
+        
+        { "value" : "Repeatability-Request-ID",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Repeatability-Request-ID",
+          "details" : 
+          [ 
+            { "description" : "Repeatability-Request-ID MUST be sent by clients to specify that a request is repeatable. The value of the Repeatability-Request-ID is an opaque string representing a client-generated, globally unique for all time, identifier for the request.",
+              "documentation" : "https:\/\/docs.oasis-open.org\/odata\/repeatable-requests\/v1.0\/cs01\/repeatable-requests-v1.0-cs01.html#sec_RepeatabilityRequestID",
+              "specification" : "http:\/\/webconcepts.info\/specs\/OASIS\/standard\/repeatable-requests-v1.0",
+              "spec-name" : "OASIS Standard repeatable-requests-v1.0" } ] },
+        
+        { "value" : "Repeatability-Result",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Repeatability-Result",
+          "details" : 
+          [ 
+            { "description" : "Servers aware of repeatability MUST return the Repeatability-Result response header in the result of a repeatable request with one of the case-insensitive values accepted or rejected.",
+              "documentation" : "https:\/\/docs.oasis-open.org\/odata\/repeatable-requests\/v1.0\/cs01\/repeatable-requests-v1.0-cs01.html#sec_RepeatabilityResult",
+              "specification" : "http:\/\/webconcepts.info\/specs\/OASIS\/standard\/repeatable-requests-v1.0",
+              "spec-name" : "OASIS Standard repeatable-requests-v1.0" } ] },
         
         { "value" : "Report-To",
           "concept" : "http:\/\/webconcepts.info\/concepts\/http-header\/",
@@ -2540,8 +2640,8 @@
           "id" : "http:\/\/webconcepts.info\/concepts\/http-header\/Want-Digest",
           "details" : 
           [ 
-            { "description" : "The Want-Digest message header field indicates the sender's desire to receive a representation digest on messages associated with the Request-URI and representation metadata.",
-              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-digest-headers#section-4.1",
+            { "description" : "The \"Want-Digest\" field indicates the sender's desire to receive a representation digest on messages associated with the request URI and representation metadata.",
+              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-digest-headers#section-4",
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-digest-headers",
               "spec-name" : "Internet Draft ietf-httpbis-digest-headers" },
             
@@ -2876,6 +2976,16 @@
               "documentation" : "http:\/\/tools.ietf.org\/html\/rfc7231#section-4.3.4",
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/7231",
               "spec-name" : "RFC 7231" } ] },
+        
+        { "value" : "QUERY",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/http-method\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/http-method\/QUERY",
+          "details" : 
+          [ 
+            { "description" : "The QUERY method is used to initiate a server-side query. Unlike the HTTP GET method, which requests that a server return a representation of the resource identified by the target URI, the QUERY method is used to ask the server to perform a query operation (described by the request payload) over some set of data scoped to the effective request URI. The payload returned in response to a QUERY cannot be assumed to be a representation of the resource identified by the effective request URI.",
+              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpbis-safe-method-w-body#section-2",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpbis-safe-method-w-body",
+              "spec-name" : "Internet Draft ietf-httpbis-safe-method-w-body" } ] },
         
         { "value" : "REBIND",
           "concept" : "http:\/\/webconcepts.info\/concepts\/http-method\/",
@@ -4963,9 +5073,9 @@
           "details" : 
           [ 
             { "description" : "The \"linkset\" link relation type is used by a resource to link to a resource that provides a set of links. Typically the Context IRI of these links  is the URI of the responding resource but links with other Context IRIs MAY be provided.",
-              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-wilde-linkset#section-4",
-              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/wilde-linkset",
-              "spec-name" : "Internet Draft wilde-linkset" } ] },
+              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpapi-linkset#section-5",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpapi-linkset",
+              "spec-name" : "Internet Draft ietf-httpapi-linkset" } ] },
         
         { "value" : "location",
           "concept" : "http:\/\/webconcepts.info\/concepts\/link-relation\/",
@@ -5990,9 +6100,9 @@
           "details" : 
           [ 
             { "description" : "This document format is identical to the payload of the HTTP Link header. It is defined in Section 3 of RFC 5988bis, more specifically by its ABNF production rule for \"Link\" and subsequent ones.",
-              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-wilde-linkset#section-5.1",
-              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/wilde-linkset",
-              "spec-name" : "Internet Draft wilde-linkset" } ] },
+              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpapi-linkset#section-4.1",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpapi-linkset",
+              "spec-name" : "Internet Draft ietf-httpapi-linkset" } ] },
         
         { "value" : "application\/linkset+json",
           "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
@@ -6000,9 +6110,9 @@
           "details" : 
           [ 
             { "description" : "For applications that prefer a JSON serialization of link set resources, the following definition provides a JSON serialization which is intended to faithfully reproduce the abstract model of RFC 5988bis.",
-              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-wilde-linkset#section-5.2",
-              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/wilde-linkset",
-              "spec-name" : "Internet Draft wilde-linkset" } ] },
+              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-ietf-httpapi-linkset#section-4.2",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/ietf-httpapi-linkset",
+              "spec-name" : "Internet Draft ietf-httpapi-linkset" } ] },
         
         { "value" : "application\/mads+xml",
           "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
@@ -6518,6 +6628,16 @@
               "documentation" : "http:\/\/www.w3.org\/TR\/PNG\/#A-Media-type",
               "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/PNG",
               "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/PNG" } ] },
+        
+        { "value" : "image\/webp",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/media-type\/image\/webp",
+          "details" : 
+          [ 
+            { "description" : "WebP is a Resource Interchange File Format (RIFF) based image file format which supports lossless and lossy compression as well as alpha (transparency) and animation.  It covers use cases similar to JPEG, PNG and the Graphics Interchange Format (GIF).",
+              "documentation" : "http:\/\/tools.ietf.org\/html\/draft-zern-webp#section-1",
+              "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/I-D\/zern-webp",
+              "spec-name" : "Internet Draft zern-webp" } ] },
         
         { "value" : "message\/http",
           "concept" : "http:\/\/webconcepts.info\/concepts\/media-type\/",
@@ -8203,6 +8323,16 @@
               "documentation" : "http:\/\/tools.ietf.org\/html\/rfc6764#section-5",
               "specification" : "http:\/\/webconcepts.info\/specs\/IETF\/RFC\/6764",
               "spec-name" : "RFC 6764" } ] },
+        
+        { "value" : "change-password",
+          "concept" : "http:\/\/webconcepts.info\/concepts\/well-known-uri\/",
+          "id" : "http:\/\/webconcepts.info\/concepts\/well-known-uri\/change-password",
+          "details" : 
+          [ 
+            { "description" : "A change password url of an origin is a URL that points to a resource that clients can use to discover where a user should go to update their password on origin.",
+              "documentation" : "https:\/\/w3c.github.io\/webappsec-change-password-url\/#change-password",
+              "specification" : "http:\/\/webconcepts.info\/specs\/W3C\/TR\/webappsec-change-password-url",
+              "spec-name" : "W3C TR http:\/\/www.w3.org\/TR\/webappsec-change-password-url" } ] },
         
         { "value" : "coap",
           "concept" : "http:\/\/webconcepts.info\/concepts\/well-known-uri\/",

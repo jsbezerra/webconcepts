@@ -1,14 +1,10 @@
 ---
 layout:      page
 title:       "Linkset: Media Types and a Link Relation Type for Link Sets"
-description: "This specification defines two media types and a link relation type for sets of links.
-The media types can be used to represents links in a standalone fashion, in one case
-in the native format used in the HTTP Link header, and in the other case in a JSON-based
-format. The link relation can be used to reference these kind of standalone link sets,
-so that a resource can indicate that additional links putting it into context are
-available someplace else. One typical scenario is when the number of links to put
-in  an HTTP Link header field becomes too big, and thus these links should be provided
-by a distinct resource."
+description: "This specification defines two document formats and respective media types for representing
+sets of links as stand-alone resources. One format is JSON-based, the other aligned
+with the format for representing links in the HTTP \"Link\" header field. This specification
+also introduces a link relation type to support discovery of sets of links."
 ---
 
 <table cellpadding="5">
@@ -16,14 +12,14 @@ by a distinct resource."
       <th valign="top" align="right">
          <em>Document Name:</em>
       </th>
-      <td>Internet Draft wilde-linkset</td>
+      <td>Internet Draft ietf-httpapi-linkset</td>
    </tr>
    <tr>
       <th valign="top" align="right">
          <em>Document URI:</em>
       </th>
       <td>
-         <code>urn:ietf:id:wilde-linkset</code>
+         <code>urn:ietf:id:ietf-httpapi-linkset</code>
       </td>
    </tr>
    <tr>
@@ -32,7 +28,7 @@ by a distinct resource."
       </th>
       <td>
          <code>
-            <a href="http://tools.ietf.org/html/draft-wilde-linkset">http://tools.ietf.org/html/draft-wilde-linkset</a>
+            <a href="http://tools.ietf.org/html/draft-ietf-httpapi-linkset">http://tools.ietf.org/html/draft-ietf-httpapi-linkset</a>
          </code>
       </td>
    </tr>
@@ -56,14 +52,10 @@ by a distinct resource."
       <th valign="top" align="right">
          <em>Abstract:</em>
       </th>
-      <td>This specification defines two media types and a link relation type for sets of links.
-         The media types can be used to represents links in a standalone fashion, in one case
-         in the native format used in the HTTP Link header, and in the other case in a JSON-based
-         format. The link relation can be used to reference these kind of standalone link sets,
-         so that a resource can indicate that additional links putting it into context are
-         available someplace else. One typical scenario is when the number of links to put
-         in  an HTTP Link header field becomes too big, and thus these links should be provided
-         by a distinct resource.
+      <td>This specification defines two document formats and respective media types for representing
+         sets of links as stand-alone resources. One format is JSON-based, the other aligned
+         with the format for representing links in the HTTP "Link" header field. This specification
+         also introduces a link relation type to support discovery of sets of links.
       </td>
    </tr>
 </table>

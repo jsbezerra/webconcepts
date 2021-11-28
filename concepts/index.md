@@ -3,17 +3,17 @@ layout: page
 title:  "Web Concepts: Overview"
 ---
 
-This is an overview of 35 Web Concepts (with a total of 806 distinct values) that have been harvested from all [available specifications](/specs):
+This is an overview of 35 Web Concepts (with a total of 819 distinct values) that have been harvested from all [available specifications](/specs):
 
 * [HTTP Authentication Schemes](http-authentication-scheme/) (10)
 * [HTTP Cache Directives](http-cache-directive/) (16)
 * [HTTP Content Codings](http-content-coding/) (10)
 * [HTTP Digest Algorithm Values](http-dig-alg/) (0)
 * [HTTP Forwarded Parameters](http-forwarded-parameter/) (4)
-* [HTTP Header Fields](http-header/) (205)
+* [HTTP Header Fields](http-header/) (215)
 * [HTTP Preferences](http-preference/) (6)
 * [HTTP Range Units](http-range-unit/) (3)
-* [HTTP Request Methods](http-method/) (39)
+* [HTTP Request Methods](http-method/) (40)
 * [HTTP Status Codes](http-status-code/) (63)
 * [HTTP Transfer Codings](http-transfer-coding/) (7)
 * [HTTP Warn Codes](http-warn-code/) (7)
@@ -22,7 +22,7 @@ This is an overview of 35 Web Concepts (with a total of 806 distinct values) tha
 * [JSON Web Token Claims](jwt-claim/) (11)
 * [JWT Confirmation Methods](jwt-confirmation-method/) (4)
 * [Link Relations](link-relation/) (126)
-* [Media Types](media-type/) (111)
+* [Media Types](media-type/) (112)
 * [OAuth Access Token Types](oauth-access-token-type/) (2)
 * [OAuth Authorization Endpoint Response Types](oauth-authorization-endpoint-response-type/) (2)
 * [OAuth Dynamic Client Registration Metadata](oauth-client-metadata/) (20)
@@ -37,6 +37,6 @@ This is an overview of 35 Web Concepts (with a total of 806 distinct values) tha
 * [Structured Syntax Suffixes](structured-syntax-suffix/) (11)
 * [URI Schemes](uri-scheme/) (36)
 * [URN Namespaces](urn-namespace/) (14)
-* [Well-Known URIs](well-known-uri/) (21)
+* [Well-Known URIs](well-known-uri/) (22)
 * [XML Namespaces](xml-ns/) (5)
 * [XML Schemas](xml-schema/) (3)
